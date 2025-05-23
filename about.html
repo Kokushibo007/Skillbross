@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Skill Bros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
+    <h1 class="center-title">Skill Bros</h1>
+    <nav id="menu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Who We Are</h2>
+    <p>Skill Bros is a two-person agency passionate about digital creativity. From editing videos to writing, we deliver top-notch quality for every project.</p>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
+```
+
+<!-- 5. CONTACT PAGE: contact.html -->
+nano contact.html
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - Skill Bros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
+    <h1 class="center-title">Skill Bros</h1>
+    <nav id="menu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Contact Us</h2>
+    <form action="mailto:skillbrosagency@email.com" method="POST" enctype="text/plain">
+      <label for="name">Your Name</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Your Email</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Your Message</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+      <input type="submit" value="Send Message">
+    </form>
+  </main>
+<script src="script.js"></script>
+</body>
+</html>
