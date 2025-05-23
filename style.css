@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+}
+nav {
+  display: none;
+  background: #333;
+  padding: 1rem;
+}
+nav a {
+  color: white;
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.menu-btn {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 24px;
+  cursor: pointer;
+}
+.center-title {
+  font-size: 32px;
+}
+main {
+  padding: 2rem;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
